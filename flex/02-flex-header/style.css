@@ -1,6 +1,10 @@
 .header  {
   font-family: monospace;
   background: papayawhip;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px
 }
 
 .logo {
@@ -22,4 +26,40 @@ a {
   padding: 8px;
   /* this removes the line under the links */
   text-decoration: none;
+}
+
+.left-links {
+  display: flex;
+  margin-right: auto;
+  flex-shrink: 1;
+}
+
+.right-links {
+  display: flex;
+  margin-left: auto;
+  flex-shrink: 1;
+}
+
+.left-link {
+  display: flex;
+  justify-content: space-evenly;
+  margin-right: auto;
+  padding-left: 0px;
+  
+}
+
+.right-link {
+  display: flex;
+  margin-left: auto;
+  justify-content: space-around;
+  padding-left: 0px;
+}
+
+li {
+  margin: 5px;
+}
+
+.logo {
+  display: flex;
+  flex-shrink: 1;
 }
